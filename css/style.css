@@ -1,0 +1,79 @@
+/* For message body */
+iframe {
+  width: 100%;
+  border: 0;
+  min-height: 80%;
+  height: 600px;
+  display: flex;
+}
+
+/* For image */
+.image-fluid {
+  float: left;
+  margin-right: 2%;
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+
+/* For container */
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* For nav bar */
+.sticky-top {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  margin-right: 40px !important;
+}
+
+#header {
+  background-color: rgb(15, 33, 77);
+  width: 100% !important;
+}
+
+/* Style the authorize button */
+.center-element {
+  display: block !important;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+}
+
+#authorize-button {
+  width: 50%;
+  height: 50px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Style the search field */
+#search-value {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(128, 128, 128);
+  float: left;
+  width: 630px;
+  background: #f1f1f1;
+  margin-top: 4px;
+}
+
+/* Style the submit button */
+#search-button {
+  float: left;
+  width: 50px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+#search-button {
+  background: #0b7dda;
+}
