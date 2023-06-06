@@ -1,6 +1,5 @@
 let clientId = //client ID for authentication
-  "397502072659-0444pfd71cqgppgseqdi058iuq12jkkr.apps.googleusercontent.com";
-let apiKey = "AIzaSyAEgGVJ18CRNCd8BQDVEjjhUGa0P_5cwQI"; //API Key for authentication
+let apiKey = //API Key for authentication
 let scopes = "https://www.googleapis.com/auth/gmail.modify"; //Scopes for account access
 let pageToken; //Used to store the token for next page
 let query = document.querySelector("#search-value").value;
